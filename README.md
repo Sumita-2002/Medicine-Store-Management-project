@@ -1,7 +1,8 @@
-<h2>Medicine Store Management System</h2><br/>
-<p>My project **Medicine Store Management System** is a full-stack web application designed to digitalize the workflow of a medicine shop. <br/> 
-It allows the shop owner to **manage medicines, track sales, generate bills, and maintain stock records** in a smooth and automated way.  </p>
-<h4></h4>This project is built using: </h4> 
+<h2>Medicine Store Management System</h2>
+My project **Medicine Store Management System** is a full-stack web application designed to digitalize the workflow of a medicine shop.  
+It allows the shop owner to **manage medicines, track sales, generate bills, and maintain stock records** in a smooth and automated way.  
+
+This project is built using:  
 - **Frontend**: React 
 - **Backend**: Spring Boot   
 - **Database**: PostgreSQL 17 
