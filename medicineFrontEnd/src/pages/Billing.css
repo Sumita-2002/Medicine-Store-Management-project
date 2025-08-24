@@ -1,0 +1,124 @@
+/* billing.css */
+
+/* Container */
+.bill-details {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px 35px;
+  background: #f4f6f8;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.bill-details h3 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 30px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+/* Form */
+.billing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.billing-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.billing-form select,
+.billing-form input {
+  padding: 12px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.billing-form select:focus,
+.billing-form input:focus {
+  border-color: #1976d2;
+  outline: none;
+  background-color: #e3f2fd;
+}
+
+/* Button */
+.generate-bill-btn {
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.generate-bill-btn:hover {
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  transform: translateY(-2px);
+}
+
+/* Bill Info / Invoice */
+.bill-info {
+  margin-top: 35px;
+  padding: 25px 30px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bill-info:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* QR Code */
+.bill-info img {
+  margin-top: 20px;
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  padding: 5px;
+  background: #eef7ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bill-info img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media (max-width: 680px) {
+  .bill-details {
+    padding: 25px 20px;
+  }
+
+  .billing-form select,
+  .billing-form input {
+    font-size: 15px;
+  }
+
+  .generate-bill-btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .bill-info p {
+    font-size: 15px;
+  }
+}

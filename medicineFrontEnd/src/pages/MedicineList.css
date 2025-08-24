@@ -1,0 +1,54 @@
+.medicine-list-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.medicine-list-container h2 {
+  text-align: center;
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.medicine-table th,
+.medicine-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.medicine-table th {
+  background-color: #0077cc;
+  color: white;
+  font-weight: 600;
+}
+
+.medicine-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.medicine-table button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.medicine-table button:hover {
+  background-color: #005fa3;
+}

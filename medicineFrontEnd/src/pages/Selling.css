@@ -1,0 +1,80 @@
+.selling-container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.selling-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.selling-row select,
+.selling-row input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.selling-row button {
+  padding: 8px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selling-row button:hover {
+  background: #218838;
+}
+
+.confirm-btn {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.confirm-btn button {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* attractive gradient */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.confirm-btn button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}

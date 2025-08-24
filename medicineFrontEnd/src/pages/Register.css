@@ -1,0 +1,112 @@
+/* Background and Container */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 20px;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+/* Card Styling */
+.register-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.6s ease;
+}
+
+/* Headings and Subtitle */
+.register-card h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Form Styles */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.register-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+.register-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback Message */
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: green;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .register-card {
+    padding: 25px 20px;
+  }
+
+  .register-form input,
+  .register-form button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .register-card h2 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+}
